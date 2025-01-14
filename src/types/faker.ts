@@ -23,12 +23,3 @@ export interface UserData {
   website: string;
   image: string;
 }
-
-export interface ApiResponse {
-  status: string;
-  code: number;
-  locale: string;
-  seed: null | string;
-  total: number;
-  data: UserData[];
-}
