@@ -47,12 +47,16 @@ itrotrain_coding_test/
 
 ## 설치 및 실행 방법
 
-1. **의존성 설치**  
+1. **Env 세팅**  
+   프로젝트 루트에 .env.local 파일을 생성합니다.
+   이후, 내부에 `VITE_SOME_KEY=fakerapi.it` 을 입력하고 저장합니다.
+
+2. **의존성 설치 및 실행**  
    프로젝트 루트에서 다음처럼 실행하시면 됩니다.
    ```javascript
    // 실행을 위해 npm i 와 npm run dev 를 묶어 뒀습ㅅ차니다.
    npm run start
    ```
-2. **의존성 설치**  
+3. **확인**  
    기본 포트는 5173 입니다.  
    http://localhost:5173
