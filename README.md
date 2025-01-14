@@ -8,40 +8,42 @@ Enviroment : vite3 + vue3 + typescript + node 16.16.0
 
 ### Directory
 
-itrotrain_coding_test/  
-├── README.md  
-├── index.html  
-├── package.json  
-├── postcss.config.js  
-├── public  
-│   └── vite.svg  
-├── src  
-│   ├── App.vue  
-│   ├── assets  
-│   │   ├── api  
-│   │   │   └── faker.ts  
-│   │   ├── css  
-│   │   │   └── reset.css  
-│   │   ├── imgs  
-│   │   │   └── searchButton.png  
-│   │   ├── tailwind  
-│   │   │   └── index.css  
-│   │   ├── tailwind  
-│  │  └── common.ts  
-│   ├── components  
-│   │   ├── AddressRow.vue  
-│   │   ├── Column.vue  
-│   │   └── Row.vue  
-│   ├── main.ts  
-│   ├── types  
-│   │   └── faker.ts  
-│   ├── utils  
-│   │   └── axios.ts  
-│   └── vite-env.d.ts  
-├── tailwind.config.js  
-├── tsconfig.json  
-├── tsconfig.node.json  
+```
+itrotrain_coding_test/
+├── README.md
+├── index.html
+├── package.json
+├── postcss.config.js
+├── public
+│   └── vite.svg
+├── src
+│   ├── App.vue
+│   ├── assets
+│   │   ├── api
+│   │   │   └── faker.ts
+│   │   ├── css
+│   │   │   └── reset.css
+│   │   ├── imgs
+│   │   │   └── searchButton.png
+│   │   ├── tailwind
+│   │   │   └── index.css
+│   │   ├── ts
+│   │       └── common.ts
+│   ├── components
+│   │   ├── AddressRow.vue
+│   │   ├── Column.vue
+│   │   └── Row.vue
+│   ├── main.ts
+│   ├── types
+│   │   └── faker.ts
+│   ├── utils
+│   │   └── axios.ts
+│   └── vite-env.d.ts
+├── tailwind.config.js
+├── tsconfig.json
+├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ## 설치 및 실행 방법
 
