@@ -49,7 +49,7 @@ itrotrain_coding_test/
 
 1. **Env 세팅**  
    프로젝트 루트에 .env.local 파일을 생성합니다.
-   이후, 내부에 `VITE_SOME_KEY=fakerapi.it` 을 입력하고 저장합니다.
+   이후, 내부에 `VITE_SOME_KEY=https://fakerapi.it` 을 입력하고 저장합니다.
 
 2. **의존성 설치 및 실행**  
    프로젝트 루트에서 다음처럼 실행하시면 됩니다.
